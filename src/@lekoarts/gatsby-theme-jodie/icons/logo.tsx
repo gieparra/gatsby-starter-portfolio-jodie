@@ -1,7 +1,7 @@
 import * as React from "react"
 
 const Logo = () => (
-  <div style={{ fontFamily: "Arial, sans-serif", fontSize: "24px", fontWeight: "bold", color: "black" }}>
+  <div style={{ fontFamily: "Arial, sans-serif", fontSize: "36px", fontWeight: "bold", color: "black", textDecoration: "none" }}>
     Gie
     Parra
   </div>
