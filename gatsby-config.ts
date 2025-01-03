@@ -1,5 +1,6 @@
 import type { GatsbyConfig, PluginRef } from "gatsby"
 import "dotenv/config"
+import { StaticImage } from "gatsby-plugin-image"
 
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
