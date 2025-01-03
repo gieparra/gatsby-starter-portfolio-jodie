@@ -63,6 +63,25 @@ const config: GatsbyConfig = {
       },
     },
     // You can remove this plugin if you don't need it
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`, // Adjust path to your image folder
+      },
+    },
+    {
+      resolve: `gatsby-plugin-image`,
+      options: {},
+    },
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {},
+    },
+    {
+      resolve: `gatsby-transformer-sharp`,
+      options: {},
+    },
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-statoscope`,
       options: {
